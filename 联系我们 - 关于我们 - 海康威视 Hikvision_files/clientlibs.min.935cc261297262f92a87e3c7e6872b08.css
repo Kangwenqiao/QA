@@ -1,0 +1,78 @@
+.interactive-map-new-container{max-width:81.875rem;width:100%;margin:0 auto}
+.interactive-map-new-container .map-wrapper{width:56%;background-repeat:no-repeat;background-size:contain;background-position:top;overflow:hidden;position:relative;float:left}
+.interactive-map-new-container .map-wrapper img{width:100%}
+.interactive-map-new-container .map-title{font-size:1.875rem;font-weight:600;line-height:1.37;letter-spacing:normal;text-align:center;display:inline-block}
+.interactive-map-new-container .map-wrapper .pin{display:inline-flex;position:absolute;background-color:#fff;border-radius:1rem;align-items:center;border:1px solid #f2f2f2;cursor:pointer;opacity:.7;flex-wrap:wrap;transition:all .15s ease-in-out;white-space:nowrap;flex-wrap:nowrap}
+.interactive-map-new-container .map-wrapper .pin .pin-icon{width:1rem;height:1rem;margin-left:.125rem;background-color:#d7000f;border-radius:50%;display:inline-block;transition:all .15s ease-in-out}
+.interactive-map-new-container .map-wrapper .pin .pin-title{text-transform:uppercase;margin-left:.625rem;margin-right:.625rem;padding-top:.125rem;padding-bottom:.125rem;font-size:.75rem;font-weight:600;height:22px;display:inline-block;vertical-align:top;transition:all .15s ease-in-out;color:#222}
+.interactive-map-new-container .map-wrapper .pin.show{background-color:#d7000f;border:1px solid #d7000f;border-radius:1.375rem;padding:.375rem .625rem}
+.interactive-map-new-container .map-wrapper .pin.show::after{display:inline-block;content:"";width:0;height:0;border:10px solid;border-color:#d7000f transparent transparent transparent;color:#d7000f;position:absolute;top:100%;left:calc(50% - 10px)}
+.interactive-map-new-container .map-wrapper .pin.show .pin-title{color:#fff}
+.interactive-map-new-container .map-wrapper .pin.show .pin-details{border-top-left-radius:0;border-top-right-radius:0}
+.interactive-map-new-container .map-wrapper .pin.show .pin-icon{background-color:#fff}
+.interactive-map-new-container .map-wrapper .pin-details-inner{display:none}
+.interactive-map-new-container .pin-details{float:right;width:38%;padding-top:0;border-radius:.3125rem;transition:all .15s ease-in-out}
+.interactive-map-new-container .pin-details img{width:100%;height:12.8125rem;border-radius:.3125rem;margin-bottom:.3125rem;transition:all .15s ease-in-out}
+.interactive-map-new-container .hik-video-trigger .icon-play{position:absolute;margin:0 auto;z-index:10;width:46px;height:46px;cursor:pointer;top:50%;left:50%;transform:translate(-50%,-50%)}
+.interactive-map-new-container .pin-details img[src=""]{opacity:0}
+.interactive-map-new-container .pin-details .interactive-map-banner{width:100%;margin-bottom:.3125rem;height:12.8125rem}
+.interactive-map-new-container .pin-details .pin-video{width:100%;margin-bottom:.3125rem;height:12.8125rem;position:relative}
+.interactive-map-new-container .pin-details .pin-video .hik-video-trigger{height:100%}
+.interactive-map-new-container .pin-details .pin-video .hik-video-trigger .video-image-hidden{object-fit:cover}
+.interactive-map-new-container .pin-details .interactive-map-banner .carousel-indicators{background:rgba(0,0,0,0.4);border-radius:.9375rem;width:3.75rem;height:1.875rem;margin-bottom:.3125rem;padding:0;left:30%}
+.interactive-map-new-container .pin-details .interactive-map-banner .carousel-indicators li{width:8px;height:8px;border-radius:50%;background-color:#fff}
+.interactive-map-new-container .pin-details .interactive-map-banner .carousel-inner{width:100%;height:100%}
+.interactive-map-new-container .pin-details .interactive-map-banner .carousel-inner .carousel-item{width:100%;height:100%;overflow:hidden}
+.interactive-map-new-container .pin-details .interactive-map-banner .carousel-inner .carousel-item .pin-details-img{width:100%;height:100%;border-radius:.3125rem;transition:all .15s ease-in-out}
+.interactive-map-new-container .pin-details .pin-description{padding-left:.3125rem;padding-right:.3125rem;padding-top:.5rem;font-size:.875rem;margin-bottom:.3125rem;text-align:left}
+.interactive-map-new-container .pin-details .pin-description h6,.interactive-map-new-container .pin-details .pin-description .pin-description-title{width:100%;font-weight:600;font-size:1rem;color:#333;overflow:hidden;text-overflow:ellipsis;display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:2}
+.interactive-map-new-container .pin-details .pin-description span{font-size:.875rem;color:#333;overflow:hidden;text-overflow:ellipsis;display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:4}
+.interactive-map-new-container .pin-details .pin-product{width:100%;display:inline-flex;justify-content:space-between}
+.interactive-map-new-container .pin-details .pin-product a{width:48%;border:1px solid rgba(234,234,234,1);display:inline-flex;flex-direction:row;justify-content:space-around;align-items:center;text-decoration:none;border-radius:4px;padding:.625rem}
+.interactive-map-new-container .pin-details .pin-product a img[src=""]{opacity:0}
+.interactive-map-new-container .pin-details .pin-product a .product-img{width:3.75rem;height:3.75rem}
+.interactive-map-new-container .pin-details .pin-product a span{display:block;width:100%;font-size:.75rem;margin-left:.625rem;color:#333;text-align:start;overflow:hidden;text-overflow:ellipsis;display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:2}
+.interactive-map-new-container .pin-details .pin-product a:hover{box-shadow:0 0 12px 0 rgba(0,0,0,0.1)}
+.interactive-map-new-container .pin-details .pin-product::after{display:block;clear:both;content:"";visibility:hidden}
+.interactive-map-new-container .map-wrapper-edit{width:56%;min-height:26.75rem;background-repeat:no-repeat;background-size:contain;background-position:top;transition:all .15s ease-in-out}
+.interactive-map-new-container .pinParent{width:56%;min-height:26.75rem;transition:all .15s ease-in-out}
+.interactive-map-new-container .pinParent img{width:100%}
+.interactive-map-new-container .map-wrapper-edit .map-wrapper-edit .map-title{font-size:1.875rem;font-weight:600;line-height:1.37;letter-spacing:normal;text-align:center;display:inline-block}
+@media only screen and (min-width:992px){.interactive-map-reference{padding:0 30px}
+.interactive-map-new-container{padding-bottom:0;margin-top:20px;margin-bottom:20px;position:relative}
+.interactive-map-new-container .pin-details .pin-product{flex-wrap:wrap}
+.interactive-map-new-container .pin-details .pin-product a{margin-bottom:10px;margin-right:2%}
+.interactive-map-new-container .map-wrapper.sticky-fixed{position:fixed;top:96px}
+.interactive-map-new-container .map-wrapper.sticky-bottom{position:absolute;bottom:10px;z-index:1}
+.interactive-map-new-container .map-wrapper.auto{position:relative}
+}
+@media only screen and (max-width:767.98px){.interactive-map-new-container .map-wrapper,.interactive-map-new-container .map-wrapper-edit{position:relative;margin-bottom:1rem;background-size:cover;overflow:hidden;width:100%}
+.interactive-map-new-container .map-wrapper .map-title{font-size:1.25rem}
+.interactive-map-new-container .map-wrapper .pin{width:1.25rem;height:1.25rem;margin:0;background-color:#d7000f;border:1px solid #d7000f;position:absolute}
+.interactive-map-new-container .map-wrapper .pin .pin-icon{display:none;width:1.0625rem;height:1.0625rem;background-color:#fff;margin:0}
+.interactive-map-new-container .map-wrapper .pin .pin-title{display:none}
+.interactive-map-new-container .map-wrapper .pin::before{display:inline-block;content:"";width:10px;height:10px;border-radius:50%;background-color:#fff;color:#d7000f;position:absolute;top:calc(50% - 5px);left:calc(50% - 5px)}
+.interactive-map-new-container .map-wrapper .pin.show{width:1.875rem;height:1.875rem}
+.interactive-map-new-container .map-wrapper .pin.show::after{display:inline-block;content:"";width:0;height:0;border:10px solid;border-color:#d7000f transparent transparent transparent;color:#d7000f;position:absolute;top:90%;left:calc(50% - 10px)}
+.interactive-map-new-container .pin-details{margin-top:1rem;position:relative;width:100%}
+.interactive-map-new-container .pin-details .pin-details-img{height:auto}
+.interactive-map-new-container .pin-details .pin-description{padding:0;display:block}
+.interactive-map-new-container .pin-details .pin-description span{overflow:visible;display:contents}
+.interactive-map-new-container .pin-details .pin-product a{flex-direction:column;margin-right:16px}
+.interactive-map-new-container .pin-details .pin-product a:last-child{margin-right:0}
+.interactive-map-new-container .pin-details .pin-product a .product-img{width:6.25rem;height:6.25rem;margin-right:22px;margin-left:22px}
+.interactive-map-new-container .pin-details .pin-product a span{padding-right:22px;margin:10px 0;overflow:visible;white-space:pre-wrap}
+.interactive-map-new-container .pin-details .pin-product{overflow-x:auto}
+.interactive-map-new-container .pin-details .pin-product::-webkit-scrollbar{display:none}
+}
+.rtl .interactive-map-new-container{direction:rtl}
+.rtl .pin-title{text-align:right}
+.rtl .interactive-mobile-container__close{left:10px;right:auto}
+.rtl .interactive-map-new-container .map-wrapper .pin.show .pin-icon{margin-right:20px;margin-left:0}
+.rtl .interactive-map-new-container .map-wrapper .pin .pin-details .pin-description{text-align:right}
+.rtl .interactive-map-new-container .map-wrapper .pin{float:right !important}
+@media only screen and (max-width:768px){.rtl .interactive-map-new-container .map-wrapper .pin:nth-child(2n){margin-right:0 !important;margin-left:.5125rem !important}
+.interactive-map-new-container{padding-left:15px;padding-right:15px;margin:10px 0}
+}
+@media only screen and (max-width:1024px) and (min-width:893px){.rtl .interactive-map-new-container .map-wrapper .pin:nth-child(2n){margin-left:0;margin-right:10rem}
+}
