@@ -18,14 +18,9 @@
 
 2.下载neo4j，我们使用社区版https://neo4j.com/download-center/#community，这个不需要安装。部署好path路径后，可以cmd中使用neo4j.bat console指令启动，后在浏览器中访问http://localhost:7474/browser/，就可以打开数据库，并设置连接（初始名字和密码都是neo4j）
  
- 
-
 3.配置mongodb数据库，在这个地址下载
 https://www.mongodb.com/try/download/community，并配置它的path路径。在你data的目录下，创建一个db文件， 类似于：‘D:\Mongodb\Server\data\db’;
-在cmd中找到创建的db文件
- 
-
-并使用这个命令来启动mongod   --dbpath D:\Mongodb\Server\data\db，同时可以得到你的端口号
+在cmd中找到创建的db文件并使用这个命令来启动mongod   --dbpath D:\Mongodb\Server\data\db，同时可以得到你的端口号
  
 通过浏览器访问http://localhost:端口号，就启动了db数据库
 如果觉得还是不太明白请自行学习
